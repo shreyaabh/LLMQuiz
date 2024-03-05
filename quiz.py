@@ -9,7 +9,7 @@ import pandas as pd
 def quiz_generator(topic, language):
     llm = ChatOpenAI(
         model="gpt-3.5-turbo",
-        openai_api_key='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',
+        openai_api_key='sk-5UXfkoMnX4jhJgamWsXPT3BlbkFJcDXZsWymdWBDG8cnG5Bgdelete',
         temperature=0.5,
         max_tokens=4095
     )
